@@ -7,12 +7,14 @@ int main (void){
 	
 	a+b; a-b; a*b; a/b;
 	
-	double c = 3;
-    	double d = 5;
+	double thuong;
+	
+	thuong =(double) a/b;
+	
 	
 	printf("a\t b\t a+b\t a-b\t a*b\t a/b\n");
 	
-	printf("%d\t %d\t %d\t %d\t %d\t %g",a,b,a+b,a-b,a*b,c/d);
+	printf("%d\t %d\t %d\t %d\t %d\t %g",a,b,a+b,a-b,a*b,thuong);
 
     
 	return 0;
