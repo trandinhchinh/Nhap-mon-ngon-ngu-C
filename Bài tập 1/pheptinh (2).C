@@ -8,7 +8,7 @@ int main (void){
 	a+b; a-b; a*b; a/b;
 	
 	double c = 3;
-    double d = 5;
+    	double d = 5;
 	
 	printf("a\t b\t a+b\t a-b\t a*b\t a/b\n");
 	
