@@ -15,8 +15,8 @@ int main (void){
 	double CV , DT;
 	
 	//gan va ep kieu double VC voi cong thuc 2*R*PI va DT voi cong thuc la R*R*PI 
-	CV =(double) 2*R*PI;
-	DT =(double) R*R*PI;
+	CV = 2*R*PI;
+	DT = R*R*PI;
 	
 	//in ket qua CV va DT ra man hinh
 	printf("%g\t   %g",CV,DT);
