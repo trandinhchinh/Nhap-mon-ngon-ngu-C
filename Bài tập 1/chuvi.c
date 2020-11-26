@@ -14,7 +14,7 @@ int main (void){
 	//khai bao VC va DT
 	double CV , DT;
 	
-	//gan va ep kieu double VC voi cong thuc 2*R*PI va DT voi cong thuc la R*R*PI 
+	//gan VC voi cong thuc 2*R*PI va DT voi cong thuc la R*R*PI 
 	CV = 2*R*PI;
 	DT = R*R*PI;
 	
