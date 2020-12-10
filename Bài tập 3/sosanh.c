@@ -9,11 +9,11 @@ int main () {
 	 
 	 printf (" nhap gia tri b\n");
 	 scanf("%d", &b);
-	
+	//dieu kien if a>b
 	if(a > b) {
     	printf("a>b");
 	}
-	
+	//dieu kien so sanh 2 gia tri bang nhau
 	 else if (a==b){
 	 	printf("a = b");
 	 }
