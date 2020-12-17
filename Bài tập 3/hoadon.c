@@ -7,14 +7,14 @@ int main() {
     
   printf ("nhap so luong =  "); scanf ("%d", &soluong);
   
-  if (soluong <5){ // so luong mua duoi 5
+  if (soluong <5 && dongia <500){ // so luong mua duoi 5
   thanhtien = dongia * soluong;
   printf("thanh tien \n"); printf("%d",thanhtien);
   }
   
-  else if (soluong>=5){ // so luong mua tu 5 tro len
+  else if (soluong>=5 && dongia >= 500){ // so luong mua tu 5 va don gia tu 500 tro len
   	//giam gia 25% = 75/100
-  thanhtien = (dongia*soluong)*75/100;
+  thanhtien = (dongia*soluong)*50/100;
   	printf("thanh tien \n"); printf ("%d",thanhtien );
   }
   
