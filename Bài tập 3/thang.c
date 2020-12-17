@@ -26,10 +26,7 @@ int main(){
 	   break; 
       default:
        printf ( "vui long nhap tu thag 1 den thang 12");
-    
   }
- 
-  
   getchar();
   return 0;
 }
