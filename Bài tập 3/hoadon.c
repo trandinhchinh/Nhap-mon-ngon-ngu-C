@@ -13,7 +13,7 @@ int main() {
   }
   
   else if (soluong>=5 && dongia >= 500){ // so luong mua tu 5 va don gia tu 500 tro len
-  	//giam gia 25% = 75/100
+  	//giam gia 50% = 50/100
   thanhtien = (dongia*soluong)*50/100;
   	printf("thanh tien \n"); printf ("%d",thanhtien );
   }
