@@ -1,14 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main(void) {
-  int n;//khai báo 1 số nguyên n
-  printf("nhap vao bang cuu chuong");// hiển thi ra màn hình bảng cửu chương được nhập từ bàn phím
-  scanf("%d", &n);
-   for(int i = 1; i <= n; i++){// đặt điều kiện hiển thị ra bảng nhân số ....
-     printf("BẢNG NHÂN %d\n", i);
-    for (int j = 0; j <= 10; j++){// đặt điều kiện hiển thị ra phép nhân trong bảng cửu chương
-      printf("\t%d * %d = %d\n", i, j, i*j);
-      } 
-    }  
-  return 0;
-}
+int main(){
+	
+	int a, b, c,d;
+	a=1,b=2,c=3,d=4;
+	printf("ban cuu chuong 2\n");
+	printf("2x1=%d\n2x2=%d\n2x3=%d\n",b,d,b+d);
+	printf("bang cuu chuong 3\n");
+	printf("3x1=%d\n3x2=%d\n3x3=%d\n",c,d+b,c*c);
+	printf("bang cuu chuong 4\n");
+	printf("4x1=%d\n4x2=%d\n4x3=%d\n",d,b*d,c*d);
+
+	return 0;
+}	
