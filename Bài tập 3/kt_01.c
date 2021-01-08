@@ -10,3 +10,27 @@ int main(){
 
 	return 0;
 }	
+
+
+
+#include <stdio.h>
+
+int main(void) {
+  int a=2,b=1;
+  printf("bang cuu chương 2\n");
+  for( b ; b <= 3; b++){
+    printf("%d x %d = %d\n",a,b,a*b);
+  }
+  printf("bang cuu chương 3\n");
+  a=3,b=1;
+  for( b ; b <= 3; b++){
+    printf("%d x %d = %d\n",a,b,a*b);
+  }
+  printf("bang cuu chương 4\n");
+  a=4,b=1;
+  for( b ; b <= 3; b++){
+    printf("%d x %d = %d\n",a,b,a*b);
+  }
+
+  return 0;
+}
