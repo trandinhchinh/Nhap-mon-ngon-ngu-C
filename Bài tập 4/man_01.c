@@ -9,7 +9,7 @@ int main(void) {
   // tinh tong cac phan tu cua mang a
   int tong = 0,i=0;
   for(; i <=3; i++){
-    printf("\n %d",a[i]);//Hiển thị dãy trên từ mảng
+    printf("\t %d",a[i]);//Hiển thị dãy trên từ mảng
     tong += a[i];//tong=tong+a[i]
     }
     printf("\ntong = %d", tong);
