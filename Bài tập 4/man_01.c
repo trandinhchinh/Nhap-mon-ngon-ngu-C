@@ -9,7 +9,7 @@ int main(void) {
   // tinh tong cac phan tu cua mang a
   int tong = 0,i=0;
   for(; i <4; i++){
-    tong += a[i];
+    tong = tong + a[i];
     }
     printf("%d", tong);
   return 0;
