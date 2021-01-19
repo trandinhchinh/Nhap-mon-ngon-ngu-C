@@ -18,7 +18,6 @@ int main(void) {
   printf("\nso chan tu mang a: ");
   for(int i=0;i<n;i++){
         if(a[i] % 2==0 &&a[i]>0){
-
         printf("%d ",a[i]);
         sc+=1;
         }
