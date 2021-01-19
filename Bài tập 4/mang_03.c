@@ -35,8 +35,8 @@ int main(void) {
         ko+=1;
     }
   }
-  printf("\nso chan trong mang a:%d ",sc);
-  printf("\nso le trong mang a:%d ",sl);
-  printf("\nso luong 0: %d ",ko);
+  printf("\nso cac so chan trong mang a:%d ",sc);
+  printf("\nso cac so le trong mang a:%d ",sl);
+  printf("\nso luong so 0: %d ",ko);
   return 0;
 }
