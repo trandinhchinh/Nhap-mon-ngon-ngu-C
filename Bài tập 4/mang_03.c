@@ -14,8 +14,8 @@ int main(void) {
   for(int i=0; i < n; i++){
       printf(" %d",a[i]);
       }
+  
   printf("\nso chan tu mang a: ");
-
   for(int i=0;i<n;i++){
         if(a[i] % 2==0 &&a[i]>0){
 
@@ -23,7 +23,7 @@ int main(void) {
         sc+=1;
         }
   }
-        printf("\nso le tu mang a: ");
+       printf("\nso le tu mang a: ");
   for(int i=0;i<n;i++){
         if(a[i] % 2!=0){
         printf("%d ",a[i]);
