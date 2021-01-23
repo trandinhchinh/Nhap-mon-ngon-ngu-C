@@ -1,0 +1,32 @@
+Phần 1:
+A)
+  Bộ chữ viết trong ngôn ngữ C là:gồm
+  + 26 chữ cái Hoa(A,B,C,D,....Z) và 26 chữ cái thường(a,b,c,d,...z)
+  + Các dấu trong toán học như :(+, - ,* ,/ , %,=,<,>)
+  + Các kí hiệu dùng để xuống hàng(\n),giữ khoảng cách(\t)
+  + Các số phập phân từ 0-9
+  + Các kí hiệu đặc biệt: "", '', [], {},.....
+B)
++ Kiểu kí tự là char
++ Kiểu số thực là float, double(tùy theo phạm vi có thể sử dụng long double)
++ Kiểu số nguyên là int
+C)
+ Biến là đại lượng được người lập trình định nghĩa và đặt tên.
+ CÚ PHÁP KHAI BÁO BIẾN LÀ:
+ kieudulieu tenbien; 
+ hay  kieudulieu tenbien = giatri;
+ VD: int(là kieuduieu) a (là tenbien có thể số hoặc chữ tùy người lập trình đặt) = 1 (là giá trị);
+
+ D)
++ Biến toàn cục là biến được khai báo bên ngoài các hàm và được sử dụng cho mọi hàm trong chương trình cho đến khi chương trình dừng lại.
+
++ Biến cục bộ (hay biến địa phương) là biến được khai báo trong khối lệnh chỉ sử dụng bên trong khối lệnh đó khi khối lệnh đó đang được sử dụng.
+Vd: như biến đếm vòng lặp for 
+E)
+Hàm là 1 sự chia nhỏ của chương trình hay một khối lệnh được thực hiện 1 nhiệm vụ cụ thể nào đó (như tính tổng,...)
+Phân loại hàm:
+ có 2 loại :
+ + Hàm thư viện chuẩn : là các hàm được xây dưng sẵn trong ngôn ngữ lập trình
+ + hàm do người lập trình định nghĩa : nó được định nghĩa theo yêu cầu của người dùng.
+F)
+nguyên tắc hoạt động của hàm là sau khi khai báo tên hàm trong khối hàm và khi gọi tên hàm nó sẽ lấy giá trị hoặc biểu thức của hàm đã được định nghĩa đó.
