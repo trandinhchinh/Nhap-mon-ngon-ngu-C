@@ -1,6 +1,8 @@
+//khoi kha bao
 #include<stdio.h>
 float a,b,c;// bien cuc bo khia bao a,b,c
 float solonnhat();
+//khoi ham main
 int main(){
   printf("Nhap so a = ");
   scanf("%f",&a);//nhập số a từ ban phim
@@ -11,6 +13,7 @@ int main(){
   solonnhat();// cho ra KQ số lớn nhất
   return 0;
 }
+//khoi dinh nghia ham
 float solonnhat(){//Giá trị trả về của hàm solonnhat()
   if(a>b &&a>c)//đk a>b và a>c
    printf("%g",a);//nếu a là số lớn nhất thì in ra man hình
