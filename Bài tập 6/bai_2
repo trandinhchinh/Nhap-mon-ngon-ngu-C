@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+	float a, b,tong;//khai bao bien
+	printf(" so do duong kinh:");
+  	scanf("%f",&b);
+    a=b*2*3.14;
+ printf("chu vi cua hinh tron = %.2f",a);
+ tong=b*b*3.14;
+ printf("\ndien tich cua hinh tron =%.2f",tong);
+}
